@@ -1,0 +1,214 @@
+{
+  "state": "Colorado",
+  "code": "CO",
+  "lastReviewed": "2026-10-01",
+  "disclaimer": "Sample only. Requirements vary by district and change over time. Have your district (and its legal counsel or risk manager) review before use. This is not legal advice.",
+  "sources": {
+    "cwdc": {
+      "label": "Colorado Workforce Development Council: Work-Based Learning",
+      "url": "https://cwdc.colorado.gov/strategies/work-based-learning"
+    },
+    "cwdcGuides": {
+      "label": "CWDC: WBL Continuum & Community Assessment Guidelines",
+      "url": "https://cwdc.colorado.gov/resources/guides-frameworks"
+    },
+    "cyeoa": {
+      "label": "Colorado Youth Employment Opportunity Act, C.R.S. 8-12-101 et seq. (CDLE)",
+      "url": "https://cdle.colorado.gov/sites/cdle/files/Colorado%20Youth%20Employment%20Opportunity%20Act,%20C.R.S.%208-12-101,%20et.%20seq.%20April%202023%20[accessible]_0.pdf"
+    },
+    "cdleYouth": {
+      "label": "CDLE Division of Labor Standards & Statistics: Youth Law",
+      "url": "https://cdle.colorado.gov/dlss/labor-laws-by-topic/youth-law"
+    },
+    "info22": {
+      "label": "CDLE INFO #22: Employment of Minors in Colorado",
+      "url": "https://cdle.colorado.gov/sites/cdle/files/INFO%20%2322%20Employment%20of%20Minors%20in%20Colorado%2009.27.2023%20accessible.pdf"
+    },
+    "wcAct": {
+      "label": "Colorado Workers' Compensation Act (CDLE), incl. C.R.S. 8-40-202 on school-sponsored training",
+      "url": "https://cdle.colorado.gov/sites/cdle/files/WC_ACT_2019_linked.pdf"
+    },
+    "mythFact": {
+      "label": "Myth vs. Fact: Work-Based Learning for Youth in Colorado (for businesses)",
+      "url": "https://coloradostateplan.com/wp-content/uploads/2018/10/Final-WBL-Myth-Busting-Document-for-Businesses-10_16_2018-Version-2-28129.pdf"
+    },
+    "qualityWbl": {
+      "label": "Quality Work-Based Learning Indicators in Colorado (CTE in Colorado, 2025)",
+      "url": "https://cteincolorado.org/wp-content/uploads/2025/10/Quality-Work-Based-Learning-in-Colorado-v2-October-2025.pdf"
+    },
+    "flsaInterns": {
+      "label": "U.S. DOL Fact Sheet #71: Internship Programs Under the FLSA",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/71-flsa-internships"
+    },
+    "district": {
+      "label": "Your district's policies (volunteer screening, field trips, risk management)",
+      "url": ""
+    }
+  },
+  "requirements": [
+    {
+      "id": "comm-norms",
+      "title": "Student–employer communication norms",
+      "who": "school",
+      "levels": [
+        1
+      ],
+      "description": "Students reach out from their school email with a teacher copied. Conversations happen by phone, video or in a public place, never through private social media messages.",
+      "source": "district",
+      "verify": true
+    },
+    {
+      "id": "event-details",
+      "title": "Event details confirmed",
+      "who": "school",
+      "levels": [
+        2
+      ],
+      "description": "Date, time, room, parking and who meets the guest at the front office.",
+      "source": "district",
+      "verify": false
+    },
+    {
+      "id": "visitor-policy",
+      "title": "Campus visitor sign-in",
+      "who": "employer",
+      "levels": [
+        2,
+        4
+      ],
+      "description": "Guests on campus follow the school's visitor check-in (usually ID at the front office). A staff member stays with the guest the whole time.",
+      "source": "district",
+      "verify": true
+    },
+    {
+      "id": "site-visit-form",
+      "title": "Site visit / field trip approval",
+      "who": "school",
+      "levels": [
+        3
+      ],
+      "description": "District field trip approval for taking students off campus, including transportation plan.",
+      "source": "district",
+      "verify": true
+    },
+    {
+      "id": "parent-permission",
+      "title": "Parent/guardian permission slips",
+      "who": "parent",
+      "levels": [
+        3,
+        4,
+        5
+      ],
+      "description": "Signed permission for each student under 18 for any off-campus or employer-supervised activity, with emergency contacts.",
+      "source": "district",
+      "verify": true
+    },
+    {
+      "id": "site-safety",
+      "title": "Worksite safety checklist",
+      "who": "employer",
+      "levels": [
+        3,
+        5
+      ],
+      "description": "Employer confirms safe areas for students, required safety gear, and areas students may not enter. Students may not do hazardous tasks restricted for minors.",
+      "source": "cyeoa",
+      "verify": true
+    },
+    {
+      "id": "mentor-agreement",
+      "title": "Mentor / project partner agreement",
+      "who": "employer",
+      "levels": [
+        3,
+        4
+      ],
+      "description": "One-page agreement covering goals, schedule, communication through school channels (no private one-on-one messaging), and who to call with concerns.",
+      "source": "qualityWbl",
+      "verify": false
+    },
+    {
+      "id": "volunteer-screening",
+      "title": "District volunteer screening / background check",
+      "who": "district",
+      "levels": [
+        3,
+        4,
+        5
+      ],
+      "description": "Many Colorado districts require volunteer screening for adults who work with students repeatedly or without a staff member present. Check your district's policy and who pays.",
+      "source": "district",
+      "verify": true
+    },
+    {
+      "id": "training-agreement",
+      "title": "Work-based learning training agreement",
+      "who": "school",
+      "levels": [
+        5
+      ],
+      "description": "Signed by school, employer, student and parent: learning goals, schedule, supervisor, evaluation, and how concerns are raised.",
+      "source": "qualityWbl",
+      "verify": true
+    },
+    {
+      "id": "workers-comp",
+      "title": "Workers' compensation coverage decided",
+      "who": "district",
+      "levels": [
+        4,
+        5
+      ],
+      "description": "Paid students are usually covered by the employer's policy. For unpaid, school-sponsored training, Colorado law may treat the student as covered by the sponsoring school district unless the district and employer agree otherwise. Confirm in writing.",
+      "source": "wcAct",
+      "verify": true
+    },
+    {
+      "id": "insurance-cert",
+      "title": "Certificate of liability insurance",
+      "who": "employer",
+      "levels": [
+        5
+      ],
+      "description": "Employer's general liability certificate, if your district requires it. Many districts list required minimums in their risk management policy.",
+      "source": "district",
+      "verify": true
+    },
+    {
+      "id": "youth-hours",
+      "title": "Youth employment hours and tasks reviewed",
+      "who": "employer",
+      "levels": [
+        4,
+        5
+      ],
+      "description": "If a student is paid, Colorado limits hours for minors (e.g., no more than 40 hours a week or 8 hours in 24 hours; extra limits for under-16s on school days and late evenings) and bans some hazardous tasks. Review the schedule and duties against CDLE guidance.",
+      "source": "info22",
+      "verify": true
+    },
+    {
+      "id": "work-permit",
+      "title": "Age certificate / work permit (if applicable)",
+      "who": "school",
+      "levels": [
+        5
+      ],
+      "description": "Colorado's youth employment law references work permits and age certificates. Check with CDLE guidance and your district whether one is needed for this student and placement.",
+      "source": "cdleYouth",
+      "verify": true
+    },
+    {
+      "id": "wage-check",
+      "title": "Paid or unpaid decided correctly",
+      "who": "employer",
+      "levels": [
+        4,
+        5
+      ],
+      "description": "Unpaid placements with for-profit employers must meet the federal 'primary beneficiary' test. Micro-internships and formal internships are usually paid. When in doubt, pay at least Colorado (or local) minimum wage.",
+      "source": "flsaInterns",
+      "verify": true
+    }
+  ]
+}

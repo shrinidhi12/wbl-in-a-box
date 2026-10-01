@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.tsbuildinfo
+app/.claude/
+.DS_Store
